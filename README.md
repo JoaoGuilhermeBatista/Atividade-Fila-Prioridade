@@ -2,10 +2,7 @@
 Repositório atividade prática 02 
 
 ## Integrantes 
-**Pedro Lucas**
-**Tiago Lara**
-**João Guilherme**
-**Matheus Nunes**
+**Pedro Lucas**  **Tiago Lara**  **João Guilherme**  **Matheus Nunes**
 
 # Projeto: Fila de Prioridade (Simulação Hospitalar)
 
