@@ -16,7 +16,7 @@ typedef struct FILA{
 
 FILA *newFILA(){
   FILA *fi = (FILA *)malloc(sizeof(FILA)); // vai ser um ponteiro que vai apontar para a struct LISTA, ou seja, *fi ---> | head | tail |
-  fi->head = NULL; // *f nao guarda os dados da fila diretamente, mas sim o endereço do priemiro e o ultimo elemento
+  fi->head = NULL; // *f nao guarda os dados da fila diretamente, mas sim o endereço do primeiro e o ultimo elemento
   fi->tail = NULL;
   return fi;
 
