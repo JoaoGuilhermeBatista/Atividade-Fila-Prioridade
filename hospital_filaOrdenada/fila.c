@@ -4,7 +4,7 @@
 #include "fila.h"
 
 FilaPrioridade* criar_fila() {                
-    FilaPrioridade* f = malloc(sizeof(FilaPrioridade));//Alaoca memoria dinamicamente para criação da fila
+    FilaPrioridade* f = malloc(sizeof(FilaPrioridade));//Aloca memoria dinamicamente para criação da fila
     f->inicio = NULL; // Define o inicio como NULL(Vazio)
     return f;//Retorna a fila criada
 }
