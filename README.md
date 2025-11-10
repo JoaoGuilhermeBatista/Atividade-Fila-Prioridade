@@ -10,6 +10,13 @@ Este projeto implementa uma estrutura de dados de **Fila Ordenada por Prioridade
 
 A regra principal de funcionamento é: **pacientes com maior valor no campo prioridade são sempre posicionados mais próximos ao início da fila para serem atendidos primeiro.**
 
+# O que é uma fila e uma fila de prioridade?
+
+A fila é uma estrutura de dados linear baseada no princípio FIFO (First In, First Out), o que significa que o primeiro elemento inserido na fila será o primeiro a ser removido, seguindo a mesma lógica de uma fila de pessoas no mundo real.
+
+A fila de prioridade é uma variação da fila comum em que cada elemento recebe um nível de prioridade. Dessa forma, a remoção não segue apenas a ordem de chegada, mas sim a prioridade de cada elemento — o de maior prioridade é sempre atendido primeiro, independentemente da sua posição de inserção.
+
+
 ## 1. Estruturas de Dados (`fila.h`)
 
 O arquivo de cabeçalho define as estruturas e o contrato das funções.
