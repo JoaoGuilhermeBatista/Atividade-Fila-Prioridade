@@ -16,6 +16,6 @@ FilaPrioridade* criar_fila();//Função para criação da fila
 void inserir(FilaPrioridade* f, char nome[], int prioridade);//Função para inserção de um elemento na fila
 void remover(FilaPrioridade* f);//Função para remover um elemento da fila
 void imprimir(FilaPrioridade* f);//Função para imprimir a fila de pacientes
-void consultar(FilaPrioridade* f,char nome);//Função para consultar os pacientes presentes na fila
+void consultar(FilaPrioridade* f, const char* nome);//Função para consultar os pacientes presentes na fila
 
 #endif // Finaliza o cabeçalho

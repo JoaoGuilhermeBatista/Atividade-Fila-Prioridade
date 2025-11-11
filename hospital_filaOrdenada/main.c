@@ -1,7 +1,7 @@
 #include <stdio.h>       // Biblioteca padrão de entrada e saída
 #include <stdlib.h>      // Biblioteca de funções de sistema
 #include <string.h>      // Biblioteca para manipular strings
-#include "fila.c"        // Inclui o arquivo com as funções da fila
+#include "fila.h"       // Inclui o arquivo com as funções da fila
 
 int main() {
     FilaPrioridade* fila = criar_fila();  // Cria uma nova fila de pacientes

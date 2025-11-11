@@ -55,20 +55,19 @@ void imprimir(FilaPrioridade* f) {
 }
 
 
-void consultar(FilaPrioridade* f, char nome){
-    if(f->inicio == NULL){ // Verifica se a fila esta vazia
-        printf("Lista Vazia!\n");// Se a fila estiver vazia exibe essa mensagem para o usuario 
-        return;// Sai da função
+void consultar(FilaPrioridade* f, const char* nome) {
+    if (f->inicio == NULL) {
+        printf("Lista Vazia!\n");
+        return;
     }
-    No* atual = f->inicio;//Começa do inicio a fila 
-
-    while(atual != NULL){//Percorre toda a fila 
-        if(strcmp(atual->nome, nome) == 0){//Compara o nome
-            printf("Paciente encontrado!");//exibe se o paciente foi encontrado ou não
-             printf("Nome: %s | Prioridade: %d\n", atual->nome, atual->prioridade);//Exibe os dados do paciente consultado
-             return;//Sai da função 
+    No* atual = f->inicio;
+    while (atual != NULL) {
+        if (strcmp(atual->nome, nome) == 0) {
+            printf("Paciente encontrado!\n");
+            printf("Nome: %s | Prioridade: %d\n", atual->nome, atual->prioridade);
+            return;
         }
-        atual = atual->prox;//Avança para o proximo no 
-printf("Paciente nao encontrado");// Se não encontra exibe essa mensagem ao usuraio 
-}
+        atual = atual->prox;
+    }
+    printf("Paciente nao encontrado!\n");
 }
